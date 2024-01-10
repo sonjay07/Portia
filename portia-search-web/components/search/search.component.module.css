@@ -1,0 +1,73 @@
+
+.search_container {
+  position: relative;
+  width: max-content;
+}
+
+.search_input_container {
+  position: relative;
+}
+
+.search_input_suggestion_is_empty {
+  width: 100%;
+  padding: 10px 40px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search_input_suggestion_is_not_empty {
+  width: 100%;
+  padding: 10px 40px 10px 40px;
+  /*border: 1px solid #ccc;*/
+  border: 0px;
+  border-color: #ccc #ccc #ccc #ccc; /* Top, Right, Bottom, Left */
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+.search_icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  /*transform: translateY(-50%);*/
+  cursor: pointer;
+  color: #888;
+}
+
+.search_icon svg {
+  font-size: 1.2em;
+}
+
+.suggestions_dropdown {
+ /* position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%; /* Set the width to 100% to match the input field 
+  max-height: 200px; /* Limit the height */
+  overflow-y: auto;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  z-index: -1;
+  top: -37px;
+}
+
+.suggestion_item {
+  padding: 8px;
+  cursor: pointer !important;
+  /*border-bottom: 1px solid #ccc;*/
+}
+
+
+
+.powered_by {
+  color: #888;
+  float: right;
+  font-size: 15px;
+}
